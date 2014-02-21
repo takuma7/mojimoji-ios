@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6B0F6EC18B78A0300456B4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B0F6EB18B78A0300456B4A /* Foundation.framework */; };
+		F6B0F6EE18B78A0300456B4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B0F6ED18B78A0300456B4A /* CoreGraphics.framework */; };
+		F6B0F6F018B78A0300456B4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B0F6EF18B78A0300456B4A /* UIKit.framework */; };
+		F6B0F6F618B78A0300456B4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6B0F6F418B78A0300456B4A /* InfoPlist.strings */; };
+		F6B0F6F818B78A0300456B4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B0F6F718B78A0300456B4A /* main.m */; };
+		F6B0F6FC18B78A0300456B4A /* LITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B0F6FB18B78A0300456B4A /* LITAppDelegate.m */; };
+		F6B0F6FF18B78A0300456B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B0F6FD18B78A0300456B4A /* Main.storyboard */; };
+		F6B0F70218B78A0300456B4A /* LITViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B0F70118B78A0300456B4A /* LITViewController.m */; };
+		F6B0F70418B78A0300456B4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B0F70318B78A0300456B4A /* Images.xcassets */; };
+		F6B0F70B18B78A0300456B4A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B0F70A18B78A0300456B4A /* XCTest.framework */; };
+		F6B0F70C18B78A0300456B4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B0F6EB18B78A0300456B4A /* Foundation.framework */; };
+		F6B0F70D18B78A0300456B4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B0F6EF18B78A0300456B4A /* UIKit.framework */; };
+		F6B0F71518B78A0300456B4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6B0F71318B78A0300456B4A /* InfoPlist.strings */; };
+		F6B0F71718B78A0300456B4A /* mojimoji_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B0F71618B78A0300456B4A /* mojimoji_iosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6B0F70E18B78A0300456B4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6B0F6E018B78A0300456B4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6B0F6E718B78A0300456B4A;
+			remoteInfo = "mojimoji-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6B0F6E818B78A0300456B4A /* mojimoji-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mojimoji-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B0F6EB18B78A0300456B4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6B0F6ED18B78A0300456B4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6B0F6EF18B78A0300456B4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6B0F6F318B78A0300456B4A /* mojimoji-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mojimoji-ios-Info.plist"; sourceTree = "<group>"; };
+		F6B0F6F518B78A0300456B4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6B0F6F718B78A0300456B4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6B0F6F918B78A0300456B4A /* mojimoji-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mojimoji-ios-Prefix.pch"; sourceTree = "<group>"; };
+		F6B0F6FA18B78A0300456B4A /* LITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITAppDelegate.h; sourceTree = "<group>"; };
+		F6B0F6FB18B78A0300456B4A /* LITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LITAppDelegate.m; sourceTree = "<group>"; };
+		F6B0F6FE18B78A0300456B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6B0F70018B78A0300456B4A /* LITViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITViewController.h; sourceTree = "<group>"; };
+		F6B0F70118B78A0300456B4A /* LITViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LITViewController.m; sourceTree = "<group>"; };
+		F6B0F70318B78A0300456B4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6B0F70918B78A0300456B4A /* mojimoji-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mojimoji-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B0F70A18B78A0300456B4A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F6B0F71218B78A0300456B4A /* mojimoji-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mojimoji-iosTests-Info.plist"; sourceTree = "<group>"; };
+		F6B0F71418B78A0300456B4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6B0F71618B78A0300456B4A /* mojimoji_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mojimoji_iosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6B0F6E518B78A0300456B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B0F6EE18B78A0300456B4A /* CoreGraphics.framework in Frameworks */,
+				F6B0F6F018B78A0300456B4A /* UIKit.framework in Frameworks */,
+				F6B0F6EC18B78A0300456B4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B0F70618B78A0300456B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B0F70B18B78A0300456B4A /* XCTest.framework in Frameworks */,
+				F6B0F70D18B78A0300456B4A /* UIKit.framework in Frameworks */,
+				F6B0F70C18B78A0300456B4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6B0F6DF18B78A0300456B4A = {
+			isa = PBXGroup;
+			children = (
+				F6B0F6F118B78A0300456B4A /* mojimoji-ios */,
+				F6B0F71018B78A0300456B4A /* mojimoji-iosTests */,
+				F6B0F6EA18B78A0300456B4A /* Frameworks */,
+				F6B0F6E918B78A0300456B4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6B0F6E918B78A0300456B4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6B0F6E818B78A0300456B4A /* mojimoji-ios.app */,
+				F6B0F70918B78A0300456B4A /* mojimoji-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6B0F6EA18B78A0300456B4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6B0F6EB18B78A0300456B4A /* Foundation.framework */,
+				F6B0F6ED18B78A0300456B4A /* CoreGraphics.framework */,
+				F6B0F6EF18B78A0300456B4A /* UIKit.framework */,
+				F6B0F70A18B78A0300456B4A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6B0F6F118B78A0300456B4A /* mojimoji-ios */ = {
+			isa = PBXGroup;
+			children = (
+				F6B0F6FA18B78A0300456B4A /* LITAppDelegate.h */,
+				F6B0F6FB18B78A0300456B4A /* LITAppDelegate.m */,
+				F6B0F6FD18B78A0300456B4A /* Main.storyboard */,
+				F6B0F70018B78A0300456B4A /* LITViewController.h */,
+				F6B0F70118B78A0300456B4A /* LITViewController.m */,
+				F6B0F70318B78A0300456B4A /* Images.xcassets */,
+				F6B0F6F218B78A0300456B4A /* Supporting Files */,
+			);
+			path = "mojimoji-ios";
+			sourceTree = "<group>";
+		};
+		F6B0F6F218B78A0300456B4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6B0F6F318B78A0300456B4A /* mojimoji-ios-Info.plist */,
+				F6B0F6F418B78A0300456B4A /* InfoPlist.strings */,
+				F6B0F6F718B78A0300456B4A /* main.m */,
+				F6B0F6F918B78A0300456B4A /* mojimoji-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6B0F71018B78A0300456B4A /* mojimoji-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6B0F71618B78A0300456B4A /* mojimoji_iosTests.m */,
+				F6B0F71118B78A0300456B4A /* Supporting Files */,
+			);
+			path = "mojimoji-iosTests";
+			sourceTree = "<group>";
+		};
+		F6B0F71118B78A0300456B4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6B0F71218B78A0300456B4A /* mojimoji-iosTests-Info.plist */,
+				F6B0F71318B78A0300456B4A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6B0F6E718B78A0300456B4A /* mojimoji-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B0F71A18B78A0300456B4A /* Build configuration list for PBXNativeTarget "mojimoji-ios" */;
+			buildPhases = (
+				F6B0F6E418B78A0300456B4A /* Sources */,
+				F6B0F6E518B78A0300456B4A /* Frameworks */,
+				F6B0F6E618B78A0300456B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mojimoji-ios";
+			productName = "mojimoji-ios";
+			productReference = F6B0F6E818B78A0300456B4A /* mojimoji-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6B0F70818B78A0300456B4A /* mojimoji-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B0F71D18B78A0300456B4A /* Build configuration list for PBXNativeTarget "mojimoji-iosTests" */;
+			buildPhases = (
+				F6B0F70518B78A0300456B4A /* Sources */,
+				F6B0F70618B78A0300456B4A /* Frameworks */,
+				F6B0F70718B78A0300456B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6B0F70F18B78A0300456B4A /* PBXTargetDependency */,
+			);
+			name = "mojimoji-iosTests";
+			productName = "mojimoji-iosTests";
+			productReference = F6B0F70918B78A0300456B4A /* mojimoji-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6B0F6E018B78A0300456B4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LIT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Takuma YOSHITANI";
+				TargetAttributes = {
+					F6B0F70818B78A0300456B4A = {
+						TestTargetID = F6B0F6E718B78A0300456B4A;
+					};
+				};
+			};
+			buildConfigurationList = F6B0F6E318B78A0300456B4A /* Build configuration list for PBXProject "mojimoji-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6B0F6DF18B78A0300456B4A;
+			productRefGroup = F6B0F6E918B78A0300456B4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6B0F6E718B78A0300456B4A /* mojimoji-ios */,
+				F6B0F70818B78A0300456B4A /* mojimoji-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6B0F6E618B78A0300456B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B0F70418B78A0300456B4A /* Images.xcassets in Resources */,
+				F6B0F6F618B78A0300456B4A /* InfoPlist.strings in Resources */,
+				F6B0F6FF18B78A0300456B4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B0F70718B78A0300456B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B0F71518B78A0300456B4A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6B0F6E418B78A0300456B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B0F70218B78A0300456B4A /* LITViewController.m in Sources */,
+				F6B0F6FC18B78A0300456B4A /* LITAppDelegate.m in Sources */,
+				F6B0F6F818B78A0300456B4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B0F70518B78A0300456B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B0F71718B78A0300456B4A /* mojimoji_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6B0F70F18B78A0300456B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6B0F6E718B78A0300456B4A /* mojimoji-ios */;
+			targetProxy = F6B0F70E18B78A0300456B4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6B0F6F418B78A0300456B4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B0F6F518B78A0300456B4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6B0F6FD18B78A0300456B4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B0F6FE18B78A0300456B4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6B0F71318B78A0300456B4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B0F71418B78A0300456B4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6B0F71818B78A0300456B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6B0F71918B78A0300456B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6B0F71B18B78A0300456B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mojimoji-ios/mojimoji-ios-Prefix.pch";
+				INFOPLIST_FILE = "mojimoji-ios/mojimoji-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6B0F71C18B78A0300456B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mojimoji-ios/mojimoji-ios-Prefix.pch";
+				INFOPLIST_FILE = "mojimoji-ios/mojimoji-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6B0F71E18B78A0300456B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mojimoji-ios.app/mojimoji-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mojimoji-ios/mojimoji-ios-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "mojimoji-iosTests/mojimoji-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F6B0F71F18B78A0300456B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mojimoji-ios.app/mojimoji-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mojimoji-ios/mojimoji-ios-Prefix.pch";
+				INFOPLIST_FILE = "mojimoji-iosTests/mojimoji-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6B0F6E318B78A0300456B4A /* Build configuration list for PBXProject "mojimoji-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B0F71818B78A0300456B4A /* Debug */,
+				F6B0F71918B78A0300456B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B0F71A18B78A0300456B4A /* Build configuration list for PBXNativeTarget "mojimoji-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B0F71B18B78A0300456B4A /* Debug */,
+				F6B0F71C18B78A0300456B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6B0F71D18B78A0300456B4A /* Build configuration list for PBXNativeTarget "mojimoji-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B0F71E18B78A0300456B4A /* Debug */,
+				F6B0F71F18B78A0300456B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6B0F6E018B78A0300456B4A /* Project object */;
+}
