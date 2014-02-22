@@ -7,6 +7,11 @@
 //
 
 #import "LITViewController.h"
+#import <QuartzCore/QuartzCore.h>
+#import <CoreMotion/CoreMotion.h>
+#import <JSONKit/JSONKit.h>
+#import <Reachability/Reachability.h>
+#import <AZSocketIO/AZSocketIO.h>
 
 @interface LITViewController ()
 
