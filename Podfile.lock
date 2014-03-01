@@ -3,19 +3,19 @@ PODS:
   - AZSocketIO (0.0.5):
     - AFNetworking (~> 1.x)
     - SocketRocket (~> 0.x)
-  - JSONKit (1.5pre)
+  - FDStatusBarNotifierView (0.1.1)
   - Reachability (3.1.1)
   - SocketRocket (0.3.1-beta2)
 
 DEPENDENCIES:
   - AZSocketIO
-  - JSONKit (> 1.4)
+  - FDStatusBarNotifierView (~> 0.1.1)
   - Reachability (~> 3.1.1)
 
 SPEC CHECKSUMS:
   AFNetworking: 61fdd49e2ffe6380378df37b3b6e70630bb9dd66
   AZSocketIO: 4b63487082324400f39b1dd47ae79fd155c8304a
-  JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601
+  FDStatusBarNotifierView: 04662aea8ba77a1c5013a6292728f6fea675e64f
   Reachability: be4883bb93f31e38266ae3365e5600a317aae735
   SocketRocket: 7ac946bcce46287a791dfff3c1f8daa692821dae
 
